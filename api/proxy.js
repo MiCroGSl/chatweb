@@ -1,7 +1,7 @@
 const { createProxyMiddleware } = require("http-proxy-middleware");
 
 module.exports = (req, res) => {
-  let target = "https://poki.com/";//your website url
+  let target = "https://51.159.195.9/?__cpo=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbQ";//your website url
   //   if (
   //     req.url.startsWith("/api") ||
   //     req.url.startsWith("/auth") ||
